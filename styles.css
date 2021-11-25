@@ -1,0 +1,22 @@
+.codebar-blue {
+  color: #4bafff;
+}
+
+.codebar-pink {
+    color: #ff036a;
+}
+
+.codebar-green {
+     color: #19f3be;
+}
+
+.green-border {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #19f3be;
+}
+
+.header-bg {
+    background-image: url("assets/header-background.jpg");
+    background-size: cover;
+}
