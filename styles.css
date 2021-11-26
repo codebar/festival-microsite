@@ -1,5 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .codebar-blue {
-  color: #4bafff;
+    color: #4bafff;
 }
 
 .codebar-pink {
@@ -7,16 +11,45 @@
 }
 
 .codebar-green {
-     color: #19f3be;
+    color: #19f3be;
 }
 
 .green-border {
-    border-style: solid;
-    border-width: 4px;
     border-color: #19f3be;
+}
+
+.blue-border {
+    border-color: #4bafff;
+}
+
+.pink-border {
+    border-color: #ff036a;
 }
 
 .header-bg {
     background-image: url("assets/header-background.jpg");
     background-size: cover;
+}
+
+.date {
+    font-weight: 700;
+    color: #4bafff;
+    font-size: 1.75rem;
+}
+
+
+.gradient-blue {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(75,175,255,1) 100%, rgba(75,175,255,1) 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
+
+.blue-list li::before {
+    content: "\2022";
+    color: #4bafff;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    padding: 5px
 }
