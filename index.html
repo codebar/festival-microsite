@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,135 +9,123 @@
     <title>codebar Festival 2022</title>
   </head>
   <body>
-    <div class="flex w-100 header-bg bg-black">
-      <div class="mw9 center pv5">
-          <div class="w-80 flex center items-center ph2-ns">
-            <div class="pa2">
-              <div>
-                  <img src="assets/festival-logo-pink.png" class="w-40" alt="codebar Festival logo 2022"/>
-                  <p class="white w-70 fw5">We'd like to invite you to be part of this exciting occassion. Join us as we empower women and minorities, and create positive change in the tech industry.</p>
-                  <h3 class="codebar-blue fw7">11 - 13th March 2022</h3>
-                  <h4 class="white mb0 fw5">3 days 100% virtual festival</h4>
-              </div>
-            </div>
-            <div class="flex justify-center pa2">
-              <div class="w-60">
-                  <img src="assets/codebar-shapes.gif" class="w-100" alt="codebar Festival logo gif"/>
-              </div>
-            </div>
+    <div class="w-full header-bg bg-black pt-12">
+      <div class="flex items-center flex-col md:flex-row w-4/5 mx-auto py-5">
+          <div class="w-full md:w-4/5">
+            <img src="assets/festival-logo-pink.png" class="w-2/5 mb-3" alt="codebar Festival logo 2022"/>
+            <p class="text-white w-3/4 font-medium">We'd like to invite you to be part of this exciting occassion. Join us as we empower women and minorities, and create positive change in the tech industry.</p>
+            <h3 class="codebar-blue font-bold my-3">11 - 13th March 2022</h3>
+            <h4 class="text-white mb-0 font-medium">3 days 100% virtual festival</h4>
+          </div>
+          <div class="w-4/5">
+            <img src="assets/codebar-shapes.gif" class="w-full md:max-w-xs" alt="codebar Festival logo gif"/>
           </div>
         </div>
     </div>
-    <div class="flex">
-      <div class="w-third ba bw2 green-border pa3 tc">
-        <p class="codebar-blue fw7 f2">30+ hours of online content</p>
-        <p class="f6 measure lh-title fw5">
+    <div class="grid grid-cols-1 sm:grid-cols-3 text-center">
+      <div class="border-4 green-border py-3 px-4">
+        <p class="codebar-blue font-bold text-4xl mb-3">30+ hours of online content</p>
+        <p class="text-sm leading-5	font-medium">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
           tempor invidunt ut sed diam voluptua.
         </p>
       </div>
-      <div class="w-third ba bw2 green-border pa3 tc">
-        <p class="codebar-blue fw7 f2">Over 1000 attendees</p>
-        <p class="f6 measure lh-title fw5">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-          tempor invidunt ut sed diam voluptua.
+      <div class="border-4 green-border py-3 px-4">
+        <p class="codebar-blue font-bold text-4xl mb-3">Over 1000 attendees</p>
+        <p class="text-sm leading-5 font-medium">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut sed diam voluptua.
         </p>
       </div>
-      <div class="w-third ba bw2 green-border pa3 tc">
-        <p class="codebar-blue fw7 f2">30 speakers</p>
-        <p class="f6 measure lh-title fw5">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-          tempor invidunt ut sed diam voluptua.
+      <div class="border-4 green-border py-3 px-4">
+        <p class="codebar-blue font-bold text-4xl mb-3">30 speakers</p>
+        <p class="text-sm leading-5 font-medium">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut sed diam voluptua.
         </p>
       </div>
     </div>
-    <div class="gradient-blue pv3 tc">
-      <h2 class="f1 mv3 codebar-pink">CFP</h2>
-      <div class="w-80 center pb6">
-        <p class="mb4 fw5 lh-title">The codebar Festival 2022 CFP is now open. If you have a proposal for a session please fill in the form below. We strongly encourage people to submit who may never have done a talk before. If you have an idea before submitting and want to chat with us about it, please drop us an email at hello@codebar.io. If your proposal is successful you will be paid £150 for your time.</p>
-        <a href="https://bit.ly/3czY78X" class="f5 no-underline green-border black bg-animate hover-bg-black hover-white pv1 ph4 ba border-box mr4 ba bw2 br-pill pink-border bw2" target="_blank">Submit to the CFP</a>
+    <div class="gradient-blue pt-3 pb-10 text-center">
+      <h2 class="text-5xl my-3 codebar-pink font-bold">CFP</h2>
+      <div class="w-4/5 mx-auto mb-8">
+        <p class="font-medium mb-5">The codebar Festival 2022 CFP is now open. If you have a proposal for a session please fill in the form below. We strongly encourage people to submit who may never have done a talk before. If you have an idea before submitting and want to chat with us about it, please drop us an email at hello@codebar.io. If your proposal is successful you will be paid £150 for your time.</p>
+        <a href="https://bit.ly/3czY78X" class="border-4 green-border rounded-full py-1 px-3 font-medium" target="_blank">Submit to the CFP</a>
       </div>
     </div>
-    <div class="w-80 center">
-      <h2 class="f1 ma0 tc codebar-pink">Sponsors</h2>
-      <div class="center flex">
-        <div class="w-50 pa2 tc">
-          <h3 class="f2 fw7">Want to </br> sponsor?</h3>
-          <a href="mailto:hello@codebar.io?subject=codebar Festival 2022 Sponsorship " class="link pv1 ph3 br-pill ba bw2 blue-border fw7 codebar-blue">Get in touch</a>
+    <div class="w-4/5 mx-auto mb-8">
+      <h2 class="text-5xl my-3 codebar-pink font-bold text-center">Sponsors</h2>
+      <div class="flex items-center flex-col md:flex-row mt-8">
+        <div class="w-full text-center">
+          <h3 class="text-4xl font-bold mb-4">Want to </br> sponsor?</h3>
+          <a href="mailto:hello@codebar.io?subject=codebar Festival 2022 Sponsorship " class="border-4 blue-border font-bold codebar-blue rounded-full py-1 px-3">Get in touch</a>
         </div>
-        <div class="w-50 pa2">
-          <ul class="list blue-list lh-copy-l">
-            <li class="fw7">Reach our community of 18,300+ people</li>
-            <li class="fw7">Effect real, positive change in our industry</li>
-            <li class="fw7">Connet with professionals on a global scale</li>
-            <li class="fw7">Tap on a diverse, well-rounded talent pool</li>
-            <li class="fw7">Drive digital footfall to your online platform</li>
+        <div class="w-full mt-8 md:mt-0">
+          <ul class="blue-list">
+            <li class="font-bold mb-4">Reach our community of 18,300+ people</li>
+            <li class="font-bold mb-4">Effect real, positive change in our industry</li>
+            <li class="font-bold mb-4">Connet with professionals on a global scale</li>
+            <li class="font-bold mb-4">Tap on a diverse, well-rounded talent pool</li>
+            <li class="font-bold mb-4">Drive digital footfall to your online platform</li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="w-80 mt4 center">
-      <h2 class="f1 ma0 codebar-pink tc mb3">codebar Festival 2022</h2>
-      <div class="flex items-center mv4" style="position: relative">
-        <div class="w-50 flex relative">
-          <img src="assets/thick-blue-square.png" alt="codebar Logo blue square" class="w-30 blue-square" />
-          <img src="assets/london-workshop.jpeg" alt="An image taken from a codebar London workshop that shpows a group of people all sat on their laptops coding" class="center w-50 br-pill relative"/>
+    <div class="w-4/5 mx-auto mb-8">
+      <h2 class="text-5xl my-3 codebar-pink font-bold text-center">codebar Festival 2022</h2>
+      <div class="flex items-center flex-col md:flex-row mt-8">
+        <div class="w-full text-center relative">
+          <img src="assets/london-workshop.jpeg" alt="An image taken from a codebar London workshop that shpows a group of people all sat on their laptops coding" class="w-1/2 mx-auto rounded-full "/>
+          <img src="assets/thick-blue-square.png" alt="codebar Logo blue square" class="w-2/5 blue-square" />
         </div>
-        <div class="w-50">
-          <p class="f2 fw7">39 sessions</p>
-          <p class="f2 fw7">800 attendees</p>
-          <p class="f2 fw7">3500 messages</p>
-          <p class="f2 fw7">£1000 donated to charities</p>
-          <p class="fw5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut sed diam voluptua.</p>
+        <div class="w-full mt-8 md:mt-0">
+          <p class="text-3xl font-bold mb-2">39 sessions</p>
+          <p class="text-3xl font-bold mb-2">800 attendees</p>
+          <p class="text-3xl font-bold mb-2">3500 messages</p>
+          <p class="text-3xl font-bold mb-8">£1000 donated to charities</p>
+          <p class="font-medium text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor invidunt ut sed diam voluptua.</p>
         </div>
       </div>
-      <div class="flex items-center mt4">
-        <div class="w-50">
-          <p class="fw5 mr3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut sed diam voluptua.</p>
-            <a href="https://www.youtube.com/playlist?list=PLfJjhFVOvESKbUMqNJ59nz15CA2LVvpia" class="link pv1 ph3 br-pill ba bw2 green-border fw7 codebar-green" target="_blank">Watch last years videos</a>
+    </div>
+    <div class="w-4/5 mx-auto mb-24">
+      <div class="flex items-center flex-col md:flex-row mt-8">
+        <div class="w-full">
+          <p class="font-medium mr-3 mb-4">Like any festival, there was lots of things happening from - talks, panels, workshops, and interactive sessions. This playlist shows all of the recorded session during the 3 days from last year.</p>
+          <a href="https://youtube.com/playlist?list=PLfJjhFVOvESKbUMqNJ59nz15CA2LVvpia" class="border-4 green-border rounded-full py-1 px-3 font-medium" target="_blank">View last year's videos</a>
         </div>
-        <div class="w-50 yt-image">
-          <img src="assets/codebar-festival-2021.jpeg" class="ba bw2 pink-border" alt="codebar Festival Videos screenshot">
+        <div class="w-full mt-8 md:mt-0 relative">
+          <a href="https://youtube.com/playlist?list=PLfJjhFVOvESKbUMqNJ59nz15CA2LVvpia" target="_blank"><img src="assets/codebar-festival-2021.jpeg" class="border-4 pink-border" alt="codebar Festival Videos screenshot"></a>
           <img src="assets/social-icons/youtube-play.svg" class="yt-svg" alt="YouTube play button">
-          <img src="assets/thick-green-circle.png" alt="codebar Logo green circle" class="w-30 green-circle" />
+          <img src="assets/thick-green-circle.png" alt="codebar Logo green circle" class="w-2/6 green-circle" />
         </div>
       </div>
     </div>
-    <footer class="bg-black w-100 mt6">
-      <div class="w-80 flex items-center center pv5">
-        <div class="w-third">
-          <img src="assets/festival-logo-green.png" class="w-50" alt="codebar Festival logo 2022"/>
-          <p class="white fw5 f6 mb1">Have questions?</p>
-          <p class="white fw5 f6 mb0">Get in touch hello@codebar.io</p>
+    <footer class="bg-black pt-12">
+      <div class="w-4/5 mx-auto flex flex-col md:flex-row mb-12">
+        <div class="w-1/3 mb-6 md:mb-0">
+          <img src="assets/festival-logo-green.png" class="w-full md:w-1/2 mb-3" alt="codebar Festival logo 2022"/>
+          <a href="mailto:hello@codebar.io?subject=Question about codebar Festival 2022"><p class="text-white font-medium text-xs mb-1">Have questions?</p></a>
+          <p class="text-white font-medium text-xs mb-0">Get in touch hello@codebar.io</p>
         </div>
-        <div class="flex w-third">
-          <ul class="list pl0">
-            <li><a href="" class="white no-underline lh-copy fw5">Contact</a></li>
-            <li><a href="" class="white no-underline lh-copy fw5">Tickets</a></li>
-            <li><a href="" class="white no-underline lh-copy fw5">FAQ</a></li>
-            <li><a href="" class="white no-underline lh-copy fw5">Cookie Policy</a></li>
-            <li><a href="" class="white no-underline lh-copy fw5">Terms and Conditions</a></li>
-          </ul>
-          <ul class="list pl0">
-            <li><a href="" class="white no-underline lh-copy fw5">Become a sponsor</a></li>
-            <li><a href="" class="white no-underline lh-copy fw5">Sponsors</a></li>
-            <li><a href="" class="white no-underline lh-copy fw5">Speakers</a></li>
-          </ul>
+        <div class="w-1/3 mb-6 md:mb-0">
+          <div class="flex flex-col md:flex-row">
+            <ul class="list-none">
+              <li><a href="mailto:hello@codebar.io?subject=Question about codebar Festival 2022" class="text-white font-medium text-xs">Contact</a></li>
+              <li><a href="https://codebar.io/cookie-policy" class="text-white font-medium text-xs">Cookie Policy</a></li>
+              <li><a href="https://codebar.io/privacy-policy" class="text-white font-medium text-xs">Privacy Policy</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="w-third tc">
-          <div class="flex justify-center">
+        <div class="w-1/3">
+          <div class="flex">
             <a href="https://twitter.com/codebar" target="_blank"><img src="assets/social-icons/twitter-icon.svg" alt="Follow us on Twitter"/></a>
             <a href="https://www.instagram.com/codebarhq/" target="_blank" class="ml2"><img src="assets/social-icons/instagram-icon.svg" alt="Follow us on Instagram" style="width: 33px"></a>
-            <a href="https://www.facebook.com/codebarHQ" target="_blank" class="ml1"><img src="assets/social-icons/facebook-icon.svg" alt="Like our Facebook page"></a>
-            <a href="https://www.youtube.com/channel/UCEYz232agE47GHUq8wneBCA" target="_blank" class="ml1"><img src="assets/social-icons/youtube-icon.svg" alt="Subscribe to our YouTube channel"></a>
+            <a href="https://www.facebook.com/codebarHQ" target="_blank"><img src="assets/social-icons/facebook-icon.svg" alt="Like our Facebook page"></a>
+            <a href="https://www.youtube.com/channel/UCEYz232agE47GHUq8wneBCA" target="_blank"><img src="assets/social-icons/youtube-icon.svg" alt="Subscribe to our YouTube channel"></a>
           </div>
-          <p class="white fw5">#codebarFestival2022</p>
+          <p class="text-white font-medium text-xs">#codebarFestival2022</p>
+        </div>
         </div>
       </div>
-      <div>
-        <p class="f6 lh-copy white tc ma0 pb2">All rights reserved to codebar Charity. Registered UK and Wales charity number 1187776.</p>
+      <div class="pb-4">
+        <p class="text-white text-center text-xs">All rights reserved to codebar Charity. Registered UK and Wales charity number 1187776.</p>
       </div>
     </footer>
   </body>
