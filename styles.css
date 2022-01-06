@@ -26,6 +26,10 @@ body {
     border-color: #ff036a;
 }
 
+a {
+    color: #4bafff;
+}
+
 .header-bg {
     background-image: url("assets/header-background.jpg");
     background-size: cover;
