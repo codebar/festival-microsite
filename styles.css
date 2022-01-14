@@ -79,3 +79,7 @@ a {
     right: -15%;
     z-index: -1;
 }
+
+.sponsor-logo {
+    max-height: 8em;
+}
