@@ -2,6 +2,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.green-button:hover {
+    background-color: #19f3be;
+    color: #000;
+}
+
+.blue-button:hover {
+    background-color: #4bafff;
+    color: #000;
+}
+
 .codebar-blue {
     color: #4bafff;
 }
