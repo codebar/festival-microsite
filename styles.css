@@ -93,3 +93,6 @@ a {
 .sponsor-logo {
     max-height: 8em;
 }
+.bw-image {
+    filter: grayscale(100%);
+}
