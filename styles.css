@@ -24,6 +24,10 @@ body {
     color: #19f3be;
 }
 
+.codebar-grey {
+    color: rgb(168, 172, 177);
+}
+
 .green-border {
     border-color: #19f3be;
 }
