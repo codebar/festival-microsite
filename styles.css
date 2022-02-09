@@ -11,6 +11,10 @@ body {
     background-color: #4bafff;
     color: #000;
 }
+.pink-button:hover {
+    background-color: #ff036a;
+    color: #000;
+}
 
 .codebar-blue {
     color: #4bafff;
