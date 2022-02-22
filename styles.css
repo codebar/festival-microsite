@@ -109,3 +109,7 @@ a {
 .bw-image {
     filter: brightness(0%);
 }
+
+.white-image {
+    filter: brightness(0) invert(1);
+}
