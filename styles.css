@@ -107,5 +107,5 @@ a {
     max-height: 8em;
 }
 .bw-image {
-    filter: grayscale(100%);
+    filter: brightness(0%);
 }
