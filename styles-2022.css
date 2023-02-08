@@ -1,0 +1,108 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.green-button:hover {
+    background-color: #19f3be;
+    color: #000;
+}
+
+.blue-button:hover {
+    background-color: #4bafff;
+    color: #000;
+}
+.pink-button:hover {
+    background-color: #ff036a;
+    color: #000;
+}
+
+.codebar-blue {
+    color: #4bafff;
+}
+
+.codebar-pink {
+    color: #ff036a;
+}
+
+.codebar-green {
+    color: #19f3be;
+}
+
+.codebar-grey {
+    color: rgb(168, 172, 177);
+}
+
+.green-border {
+    border-color: #19f3be;
+}
+
+.blue-border {
+    border-color: #4bafff;
+}
+
+.pink-border {
+    border-color: #ff036a;
+}
+
+.speaker a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a {
+    color: #4bafff;
+}
+
+.header-bg {
+    background-image: url("assets/header-background.jpg");
+    background-size: cover;
+}
+
+.date {
+    font-weight: 700;
+    color: #4bafff;
+    font-size: 1.75rem;
+}
+
+.blue-list li::before {
+    content: "\2022";
+    color: #4bafff;
+    width: 1em;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.yt-image {
+    position: relative;
+}
+
+.yt-svg {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+
+.blue-square {
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    z-index: -1;
+}
+
+.green-circle {
+    position: absolute;
+    bottom: -23%;
+    right: -15%;
+    z-index: -1;
+}
+
+.sponsor-logo {
+    max-height: 8em;
+}
+.bw-image {
+    filter: brightness(0%);
+}
+
+.white-image {
+    filter: brightness(0) invert(1);
+}
