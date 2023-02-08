@@ -24,6 +24,10 @@ body {
     color: #19f3be;
 }
 
+.border-dark-blue {
+    border-color: #1E1D3B;
+}
+
 .border-cb-pink {
     border-color: #ff036a;
 }
