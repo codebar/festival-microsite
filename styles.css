@@ -60,6 +60,10 @@ body {
     background-color: #FFD700;
 }
 
+.bg-silver {
+    background-color: #C0C0C0;
+}
+
 .bg-purple {
     background-color: #7600BC;
 }
@@ -135,6 +139,10 @@ body {
 
 .gold-box {
     border: 2px solid #FFD700;
+}
+
+.silver-box {
+    border: 2px solid #C0C0C0;
 }
 
 .purple-box {
