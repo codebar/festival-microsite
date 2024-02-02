@@ -103,6 +103,23 @@ body {
     background-color: #00008B ;
 }
 
+.pink-button-outer {
+    padding: 4px;
+    display: inline-block;
+    border: 2px solid #ff036a;
+}
+
+.pink-button {
+    background-color: #ff036a ;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pink-button:hover {
+    background-color: #ba004c ;
+}
+
 .white-button-outer {
     padding: 4px;
     display: inline-block;
