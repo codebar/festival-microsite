@@ -40,6 +40,10 @@ body {
     background-color: #1E1D3B;
 }
 
+.bg-dark-red {
+    background-color: #DC143C;
+}
+
 .bg-cb-pink {
     background-color: #ff036a;
 }
@@ -172,6 +176,10 @@ body {
 
 .purple-box {
     border: 2px solid #7600BC;
+}
+
+.dark-red-box {
+    border: 2px solid #DC143C;
 }
 
 .dark-green-box {
