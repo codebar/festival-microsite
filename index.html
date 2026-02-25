@@ -5,7 +5,6 @@
     <title>codebar Festival 2026</title>
     <meta name="description" content="Join us for codebar Festival - 16th to 21st March">
     <meta name="keywords" content="codebar, codebar Festival, diversity in tech, learning to code, learn to code, learn to code for free">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +19,7 @@
 
       gtag('config', 'G-G9FXGGP1H8');
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
 
@@ -95,12 +95,14 @@
         <div class="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-3">
           <div class="flex flex-col mt-12 purple-box mr-6">
             <div class="bg-purple text-white pt-5 pb-5 font-bold">VENUE SPONSOR</div>
-            <a href="https://monzo.com/" target="_blank"><img src="assets/company-logos/monzo.png" class="p-6" alt="Monzo logo"></a>
+            <div>
+              <a href="https://monzo.com/" target="_blank"><img src="assets/company-logos/monzo.png" class="p-6" alt="Monzo logo"></a>
+            </div>
           </div>
 
           <div class="flex flex-col mt-12 dark-red-box mr-6">
             <div class="bg-dark-red text-white pt-5 pb-5 font-bold">SWAG SPONSOR</div>
-            <a href="https://www.b2c2.com " target="_blank"><img src="assets/company-logos/B2C2.png" class="p-10" alt="B2C2 logo"></a>
+            <a href="https://www.b2c2.com" target="_blank"><img src="assets/company-logos/B2C2.png" class="p-10" alt="B2C2 logo"></a>
           </div>
 
           <div class="flex flex-col mt-12 dark-green-box mr-6">
@@ -108,11 +110,22 @@
             <a href="https://www.skyscanner.com/" target="_blank"><img src="assets/company-logos/skyscanner.svg" class="p-6" alt="Skyscanner logo"></a>
           </div>
         </div>
+
+        <h2 class="text-3xl font-bold mb-4 mt-12">Meet our community partners</h2>
+
+        <div class="flex items-center dark-blue-box mt-8">
+          <a href="https://www.seckington.com/tldr/" target="_blank" class="md:w-1/4 w-full"><img src="assets/community-logos/ltdr.png" class="p-8" alt="Tech Ladies Dinner Roundtable logo"></a>
+          <a href="https://representai.co.uk/" target="_blank" class="md:w-1/4 w-full"><img src="assets/community-logos/representai.png" class="p-8" alt="RepresentAI logo"></a>
+          <a href="https://codeyourfuture.io/" target="_blank" class="md:w-1/4 w-full"><img src="assets/community-logos/cyf.png" class="p-8" alt="Code your Future logo"></a>
+          <a href="https://gossipgroup.org/" target="_blank" class="md:w-1/4 w-full"><img src="assets/community-logos/gossip-group.png" class="p-8" alt="Gossip Group logo"></a>
+        </div>
+
+      </div>
     </div>
 
     <div class="flex w-full pt-16">
       <div class="w-6/12">
-        <img src="assets/uncodebar-speaker-shot.jpg" class="" alt="Pink speech marks">
+        <img src="assets/uncodebar-speaker-shot.jpg" alt="uncodebar speaker">
       </div>
       <div class="flex w-6/12 bg-dark-blue">
         <div class="w-8/12 m-auto">
